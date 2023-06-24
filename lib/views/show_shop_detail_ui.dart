@@ -10,6 +10,15 @@ class ShowShopDetailUI extends StatefulWidget {
 class _ShowShopDetailUIState extends State<ShowShopDetailUI> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.pink[100],
+      appBar: AppBar(
+        backgroundColor: Colors.pink,
+        title: Text(
+          'CAKE SHOP CALL FAST detail',
+        ),
+        centerTitle: true,
+      ),
+    );
   }
 }
