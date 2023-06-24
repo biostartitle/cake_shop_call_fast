@@ -11,7 +11,7 @@ class _SplashScreenUIState extends State<SplashScreenUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: colors.pink[100],
+      backgroundColor: Colors.pink[100],
     );
   }
 }
